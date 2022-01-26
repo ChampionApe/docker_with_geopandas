@@ -1,8 +1,0 @@
-version: 2.1
-jobs:
-  build:
-    steps:
-      run:
-        name: "latest image"
-        command: echo 'export DOCKER_IMAGE="championape/docker_with_geopands"' >> $BASH_ENV
-        

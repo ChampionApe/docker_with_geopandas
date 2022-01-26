@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ChampionApe/docker_with_geopandas.svg?branch=master)](https://travis-ci.org/ChampionApe/docker_with_geopandas)
+[![Build Status](https://travis-ci.com/ChampionApe/docker_with_geopandas.svg?branch=master)](https://travis-ci.com/ChampionApe/docker_with_geopandas)
 
 # docker_with_geopandas
 

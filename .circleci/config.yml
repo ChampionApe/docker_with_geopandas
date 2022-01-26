@@ -1,4 +1,8 @@
 version: 2.1
 jobs:
   build:
-    - image: championape/docker_with_geopandas$(git rev-parse HEAD)
+    steps:
+      run:
+        name: "latest image"
+        command: echo 'export DOCKER_IMAGE="championape/docker_with_geopands"' >> $BASH_ENV
+        

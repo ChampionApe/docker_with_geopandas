@@ -1,9 +1,8 @@
 version: 2
 jobs:
   environment:
-    global:
-      DOCKER_IMAGE: championape/docker_with_geopandas
-      GIT_LATEST_COMMIT: $(git rev-parse HEAD)
+    DOCKER_IMAGE: championape/docker_with_geopandas
+    GIT_LATEST_COMMIT: $(git rev-parse HEAD)
   build:
     docker:
       -image: $DOCKER_IMAGE:$GIT_LATEST_COMMIT
